@@ -7,3 +7,4 @@ image varchar(255),
 summary varchar(255)
 );
 
+
