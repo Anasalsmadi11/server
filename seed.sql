@@ -6,6 +6,8 @@
 
 -- INSERT into favrecipe (title,readyinminutes,image,summary) values ('Fish and Chips', '40 minutes', 'https://www.example.com/fish-and-chips.jpg', 'A classic British pub dish with crispy battered fish and chunky fries.');
 
-INSERT into memes (image_path,meme_name,rank,tags,top_text) values ("https://imgflip.com/s/meme/First-World-Problems.jpg", "First World Problems", 60,"Crying, FWP, White Whine", null);
+INSERT into memes (image_path, meme_name, rank, tags, top_text) values ('https://imgflip.com/s/meme/First-World-Problems.jpg', 'First World Problems', 60,'Crying, FWP, White Whine', null);
 
-INSERT into memes (image_path,meme_name,rank,tags,top_text) values ("https://imgflip.com/s/meme/Batman-Slapping-Robin.jpg", "Batman Slapping Robin", 10,"My parents are dead", "");
+INSERT into memes (image_path,meme_name,rank,tags,top_text) values ('https://imgflip.com/s/meme/Batman-Slapping-Robin.jpg', 'Batman Slapping Robin', 10,'My parents are dead', 'anything');
+
+-- the insert seed didnt wort because it was souble quoted so i put it in a single quote

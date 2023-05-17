@@ -8,6 +8,7 @@
 -- );
 
 
+-- the database im in now(demo15) didnt work at first and gave me errors in the terminal telling me that there is no meme relation so i went to demo15 in psql and add table meme
 DROP TABLE IF EXISTS memes;
 CREATE TABLE IF NOT EXISTS memes (
     id SERIAL PRIMARY KEY,
